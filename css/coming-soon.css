@@ -23,7 +23,7 @@ h4,
 h5,
 h6 {
   font-family: 'Merriweather';
-  font-weight: 700;
+  font-weight: 600;
 }
 
 video {
@@ -34,6 +34,7 @@ video {
   min-height: 100%;
   width: auto;
   height: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   z-index: 0;
 }
@@ -44,14 +45,16 @@ video {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #4C566A;
-  opacity: 0.5;
+  background-color: #282a36;
+  opacity: 0.6;
   z-index: 1;
 }
 
 .brand {
+  color: #f8f8f2;
   font-size: 5em !important;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Grand Hotel', cursive;
+  margin-bottom: 40px;
 }
 
 .masthead {
@@ -68,9 +71,10 @@ video {
   right: 0;
   left: 0;
   width: 100%;
-  min-height: 35rem;
+  min-height: 25rem;
   height: 100%;
-  background-color: rgba(46, 52, 64, 0.8);
+  background-color: #282a36;
+  opacity: 0.9;
   transform: skewY(4deg);
   transform-origin: bottom right;
 }
@@ -189,13 +193,13 @@ video {
 }
 
 .btn-secondary {
-  background-color: #BF616A;
-  border-color: #BF616A;
+  background-color: #274690;
+  border-color: #274690;
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #BF616A !important;
-  border-color: #BF616A !important;
+  background-color: #274690 !important;
+  border-color: #274690 !important;
 }
 
 .input {
