@@ -46,7 +46,7 @@ video {
   height: 100%;
   width: 100%;
   background-color: #282a36;
-  opacity: 0.4;
+  opacity: 0.25;
   z-index: 1;
 }
 
@@ -73,7 +73,7 @@ video {
   width: 100%;
   min-height: 25rem;
   height: 100%;
-  background-color: #282a36;
+  background-color: black;
   opacity: 0.65;
   transform: skewY(4deg);
   transform-origin: bottom right;
@@ -204,4 +204,8 @@ video {
 
 .input {
   font-weight: 300 !important;
+}
+
+.input-group {
+  width: 85% !important;
 }
